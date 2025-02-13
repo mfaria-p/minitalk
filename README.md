@@ -9,6 +9,13 @@ Minitalk is a simple data exchange program using UNIX signals. It serves as an i
 - **Bonus Features**:
   - **Acknowledgment**: The server sends acknowledgment signals back to the client after receiving each bit.
 
+## Learning Outcomes
+This project helps in understanding:
+- UNIX signals and inter-process communication
+- Signal handling with `sigaction`
+- Bitwise operations and binary data transmission
+- Process synchronization
+
 ## Files Structure
 ```
 Minitalk/
@@ -80,10 +87,3 @@ To recompile the project from scratch:
 ```sh
 make re
 ```
-
-## Learning Outcomes
-This project helps in understanding:
-- UNIX signals and inter-process communication
-- Signal handling with `sigaction`
-- Bitwise operations and binary data transmission
-- Process synchronization
